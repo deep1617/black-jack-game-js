@@ -38,6 +38,7 @@ function startgame(){
     let secondcard =getrandom()
     arr = [firstcard,secondcard]
     sum=firstcard+secondcard
+    gotblackjack=false
     isalive=true;
     rendergame()
 }
